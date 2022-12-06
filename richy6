@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h3>web app4</h3>
+        <button id="rich" onclick="myfunction()"></button>
+        <script>
+            function myfunction(){
+                var txt;
+                if (confirm("Press Richyball")){
+                  txt="You pressed Richyball"
+                }
+                else{
+                    txt="What the hell!"
+                }
+                document.getElementById("rich")=txt;
+                
+            }
+            </script>
+    </body>
+        
+</html>

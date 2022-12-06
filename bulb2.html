@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <img id="demo" src="bulbon.jpg" onclick="onChange()">
+        <script>
+            function onChange(){
+                var image = document.getElementById('demo');
+                if (image.src.match("bulboff")){
+                    image.src = "bulbon.jpg";
+                } else{
+                    image.src = "bulboff.jpg";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+    <header>
+        <script>
+          function myfunction(){
+            var x = document.getElementById('myImage').src;
+            document.getElementById('demo').innerHTML = x;
+          }
+        </script>
+    </header>
+    <body>
+        <img src="bulbon.jpg" height="200px" width="100px" id="myImage">
+        <button onclick="myfunction()">Try me</button>
+        <p id="demo"></p>
+    </body>
+</html>
